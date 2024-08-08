@@ -1,8 +1,12 @@
-# React + Vite
+![Example Image](./public/final.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔥 Responsive Property Website
 
-Currently, two official plugins are available:
+* Uses fonts from Google's Web Font collection.
+* Resize items anywhere within the grid to produce powerful, responsive layouts.
+* Reusable elements you can use across your site.
+* Build your lead lists and clients base with beautiful forms.
+* Site navigation automatically collapses into a mobile-friendly menu on smaller devices.
+* Displays perfectly on desktops, tablets, and phones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ❤️ Follow my [Creahsion](https://x.com/CreashionCode/) account on X!
