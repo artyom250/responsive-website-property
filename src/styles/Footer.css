@@ -1,0 +1,133 @@
+#contact {
+    background-color: #262626;
+    color: white;
+    margin-top: 160px;
+}
+
+.contactFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.headTitle.tw {
+    color: grey;
+    font-size: 14px;
+}
+
+.contact-link {
+    color: white;
+    font-size: 28px;
+}
+
+#contact form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+}
+
+#contact form input {
+    width: 280px;
+}
+
+#contact form textarea {
+    grid-column: span 2;
+    resize: none;
+    height: 100px;
+}
+
+#contact form input, #contact form textarea {
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #404040;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s
+}
+
+#contact form input:hover, 
+#contact form textarea:hover {
+    border-bottom: 1px solid white;
+}
+
+#contact button {
+    color: black;
+    background-color: white;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+footer {
+    border-top: 1px solid #404040;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px 50px;
+    margin-top: 80px;
+}
+
+footer .logo {
+    color: white;
+    background: none;
+    width: fit-content;
+    border: 1px solid #404040;
+}
+
+footer ul {
+    display: flex;
+    gap: 40px;
+}
+
+footer .logo:hover {
+    background: none;
+    border: 1px solid white;
+}
+
+footer ul {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer ul li a {
+    color: grey;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+footer ul li a:hover,
+.socials a i:hover {
+    color: white;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.socials a {
+    display: flex;
+}
+
+.socials a i {
+    color: #777777;
+    display: flex;
+    font-size: 24px;
+    transition: 0.3s;
+}

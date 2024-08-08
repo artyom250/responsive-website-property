@@ -1,0 +1,96 @@
+.Slider {
+    overflow: hidden;
+    display: grid;
+    position: relative;
+    border-radius: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 650px;
+    margin-top: 90px;
+}
+
+.Slider img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.arrows {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.arrows button {
+    cursor: pointer;
+    background: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.arrows button:hover {
+    transform: scale(0.95);
+}
+
+.arrows i {
+    color: white;
+    display: flex;
+    font-size: 24px;
+}
+
+.number {
+    background: linear-gradient(to top, black, transparent);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+.numberFlex {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-weight: 500;
+    padding: 50px;
+}
+
+.bullets {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bullet {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .4);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.bullet.white {
+    background-color: white;
+}
+
+.imgNumber {
+    font-size: 48px;
+    width: 168px;
+}
+
+.imgDesc {
+    max-width: 168px;
+    text-align: right;
+}

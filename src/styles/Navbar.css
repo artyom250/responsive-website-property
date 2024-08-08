@@ -1,0 +1,67 @@
+.Navbar {
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    padding: 28px 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo, .contact {
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 12px;
+    transition: 0.3s;
+}
+
+.contact {
+    border-color: black;
+    padding: 10px 15px;
+}
+
+.logo:hover {
+    background-color: whitesmoke;
+    border-color: black;
+}
+
+.contact:hover {
+    color: white;
+    background-color: black;
+}
+
+.Navbar ul {
+    display: flex;
+    gap: 10px;
+}
+
+.Navbar ul li:last-child {
+    display: none;
+}
+
+.Navbar ul li a {
+    color: black;
+    padding: 8px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.Navbar ul li a:hover {
+    background-color: whitesmoke;
+}
+
+.toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}

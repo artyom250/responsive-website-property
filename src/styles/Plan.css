@@ -1,0 +1,28 @@
+.planImage {
+    margin: 65px 0px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.planGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 64px;
+    gap: 60px;
+}
+
+.planBlock div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.planBlock div p:nth-child(1) {
+    color: #666;
+}
+
+.planBlock div:not(:nth-child(1)) {
+    margin-top: 20px;
+}

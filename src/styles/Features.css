@@ -1,0 +1,57 @@
+.featGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 65px;
+    grid-gap: 50px;
+}
+
+.featGrid div {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 25px;
+}
+
+.featGrid div p:nth-child(1) {
+    font-size: 96px;
+}
+
+.featGrid div p:nth-child(2) {
+    font-weight: 500;
+}
+
+.featImg {
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 65px 0px;
+    height: 650px;
+}
+
+.featImg img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.featGrid2 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.featGrid2:not(:nth-child(1)) {
+    margin-top: 60px;
+}
+
+.gridTwoSmall {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.gridTwoSmall:not(:nth-child(1)) {
+    margin-top: 20px;
+}
+
+.featGrid2-h {
+    font-weight: 500;
+}
